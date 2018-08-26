@@ -16,7 +16,7 @@ class Solution(object):
         if t2 == None:
             return t1
         t1.val +=t2.val
-        t1.left = self.mergeTrees(t1.left,t2.left) #右边的为null时，直接返回左边的node给新的tree
+        t1.left = self.mergeTrees(t1.left,t2.left) 
         t1.right = self.mergeTrees(t1.right,t2.right)
 
         return t1
@@ -25,7 +25,7 @@ class Solution(object):
 s = Solution()
 t1 = TreeNode(1)
 t2 = TreeNode(2)
-t2.right = 3
+t2.right = TreeNode(3)
 
 s. mergeTrees(t1,t2)
 
