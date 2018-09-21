@@ -8,7 +8,7 @@ Push the changes in your local repository to GitHub.
 
 
 
-## Python "sum" - Convert list-of-lists to a list
+### 1.Python "sum" - Convert list-of-lists to a list
 ```python
 lists_list = [ [1, 2], [3, 4], [5, 6] ]
 tuples_list = [ (1, 2, 3), (4, 5, 6) ]
